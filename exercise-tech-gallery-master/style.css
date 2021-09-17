@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #e5e5e3;
+  background-color: #323433;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: aquamarine; */
+  height: 65px;
+  font-size: 20px;
+  margin: 10px auto 13px auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: tomato; */
+  width: 80%;
+  max-width: 800px;
+  margin: 10px auto 13px auto;
+}
+
+.grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  width: 196px;
+  height: 218px;
+  margin: 0 10px 15px 0;
+  
+  border-radius: 15px;
+  box-shadow: #b5a8a8 3px 3px;
+}
+
+h3:hover {
+  color: #2ec18b;
+}
+
+h4 {
+  color: #98a2af;
+}
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+hr {
+  width: 15%;
+  margin: 10px auto 13px auto;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
